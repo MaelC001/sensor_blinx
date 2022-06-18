@@ -112,7 +112,7 @@
         },
         {
             "name": "16-key Touch Sensor",
-            "categorie": "botton",
+            "categorie": "Button",
             "sensor": "TTP229L",
             "url": "https://wiki.keyestudio.com/Ks0260_keyestudio_TTP229L_16-key_Touch_Sensor",
             "image": "",
@@ -162,7 +162,7 @@
         },
         {
             "name": "joystick",
-            "categorie": "botton",
+            "categorie": "Button",
             "sensor": "MEGA328P",
             "url": "",
             "image": "",
@@ -172,7 +172,7 @@
         },
         {
             "name": "joystick",
-            "categorie": "botton",
+            "categorie": "Button",
             "sensor": "MEGA8A",
             "url": "",
             "image": "",
@@ -254,7 +254,7 @@
     "Port": [
         {
             "name": "Joystick",
-            "categorie": "botton",
+            "categorie": "Button",
             "sensor": "PS2_joystick",
             "url": "https://wiki.keyestudio.com/Ks0008_keyestudio_Joystick_Module",
             "image": "",
@@ -972,8 +972,8 @@
         },
         {
             "name": "Rotary Encoder",
-            "categorie": "botton",
-            "sensor": "",
+            "categorie": "Button",
+            "sensor": "encoder",
             "url": "https://wiki.keyestudio.com/Ks0013_keyestudio_Rotary_Encoder_Module",
             "image": "",
             "url_code": "",
@@ -983,14 +983,14 @@
                 {
                     "typePort": "Digital",
                     "in_out": "in",
-                    "number": "1"
+                    "number": "3"
                 }
             ]
         },
         {
             "name": "Reed Switch",
             "categorie": "magnet",
-            "sensor": "",
+            "sensor": "Reed Switch",
             "url": "https://wiki.keyestudio.com/Ks0038_keyestudio_Reed_Switch_Module",
             "image": "",
             "url_code": "",
@@ -1024,7 +1024,7 @@
         {
             "name": "3-channel Line Tracking",
             "categorie": "tracking",
-            "sensor": "",
+            "sensor": "TCRT5000",
             "url": "https://wiki.keyestudio.com/KS0453_Keyestudio_3-channel_Line_Tracking_Module",
             "image": "",
             "url_code": "",
@@ -1040,12 +1040,12 @@
         },
         {
             "name": "AD KEY Button Module",
-            "categorie": "botton",
-            "sensor": "",
-            "url": "https://wiki.keyestudio.com/KS0466_Keyestudio_AD_KEY_Button_Modu",
+            "categorie": "Button",
+            "sensor": "AD_KEY_Button",
+            "url": "https://wiki.keyestudio.com/KS0466_Keyestudio_AD_KEY_Button_Module(Black_and_Eco-friendly)",
             "image": "",
             "url_code": "",
-            "url_code_example": "Black_and_Eco-friendly)",
+            "url_code_example": "",
             "liaison": "and",
             "info": [
                 {
@@ -1091,7 +1091,7 @@
         },
         {
             "name": "Capacitive Touch",
-            "categorie": "botton",
+            "categorie": "Button",
             "sensor": "",
             "url": "https://wiki.keyestudio.com/Ks0031_keyestudio_Capacitive_Touch_Sensor",
             "image": "",
@@ -1227,7 +1227,7 @@
         },
         {
             "name": "Digital Push Button",
-            "categorie": "botton",
+            "categorie": "Button",
             "sensor": "",
             "url": "https://wiki.keyestudio.com/Ks0029_keyestudio_Digital_Push_Button",
             "image": "",
@@ -1244,7 +1244,7 @@
         },
         {
             "name": "Slide Potentiometer Module",
-            "categorie": "botton",
+            "categorie": "Button",
             "sensor": "",
             "url": "https://wiki.keyestudio.com/Ks0279_keyestudio_Slide_Potentiometer_Module_for_Arduino",
             "image": "",
