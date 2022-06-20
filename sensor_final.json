@@ -653,7 +653,7 @@
             "sensor": "buzzerD",
             "url": "https://wiki.keyestudio.com/Ks0018_keyestudio_Digital_Buzzer_Module",
             "image": "https://wiki.keyestudio.com/images/7/7d/KS0349_5-1.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -670,7 +670,7 @@
             "sensor": "buzzerP",
             "url": "https://wiki.keyestudio.com/Ks0019_keyestudio_Passive_Buzzer_module",
             "image": "https://wiki.keyestudio.com/images/a/af/KS0019_%284%29.jpg",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -687,7 +687,7 @@
             "sensor": "relay2",
             "url": "https://wiki.keyestudio.com/Ks0057_keyestudio_Dual_Relay_Module",
             "image": "https://wiki.keyestudio.com/images/f/f6/Ks0057.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou_mul.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -704,7 +704,7 @@
             "sensor": "relay",
             "url": "https://wiki.keyestudio.com/Ks0011_keyestudio_5V_Relay_Module",
             "image": "https://wiki.keyestudio.com/images/b/b0/Ks0011.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -721,7 +721,7 @@
             "sensor": "relay4",
             "url": "https://wiki.keyestudio.com/Ks0058_keyestudio_4-channel_Relay_Module",
             "image": "https://wiki.keyestudio.com/images/f/fa/Ks0058-1.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou_mul.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -745,7 +745,12 @@
                 {
                     "typePort": "Digital",
                     "in_out": "ou",
-                    "number": "1"
+                    "number": "4"
+                },
+                {
+                    "typePort": "Analog",
+                    "in_out": "ou",
+                    "number": "2"
                 }
             ]
         },
@@ -755,14 +760,19 @@
             "sensor": "TB6612FNG",
             "url": "https://wiki.keyestudio.com/Ks0066_keyestudio_TB6612FNG_Motor_Driver",
             "image": "https://wiki.keyestudio.com/images/6/65/Ks0066-1.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
                 {
                     "typePort": "Digital",
                     "in_out": "ou",
-                    "number": "7"
+                    "number": "5"
+                },
+                {
+                    "typePort": "Analog",
+                    "in_out": "ou",
+                    "number": "2"
                 }
             ]
         },
@@ -772,7 +782,7 @@
             "sensor": "A4988",
             "url": "https://wiki.keyestudio.com/Ks0281_Keyestudio_Reprap_Stepper_Motor_Driver",
             "image": "https://wiki.keyestudio.com/images/1/18/Ks0281.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou_mul.py",
             "url_code_example": "https://github.com/jeffmer/micropython-upybbot",
             "liaison": "and",
             "info": [
@@ -794,7 +804,7 @@
             "liaison": "and",
             "info": [
                 {
-                    "typePort": "Digital",
+                    "typePort": "Analog",
                     "in_out": "ou",
                     "number": "1"
                 }
@@ -806,7 +816,7 @@
             "sensor": "led",
             "url": "https://wiki.keyestudio.com/Ks0010_keyestudio_3W_LED_Module",
             "image": "https://wiki.keyestudio.com/images/7/75/KS0010_%284%29.jpg",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -823,7 +833,7 @@
             "sensor": "led3",
             "url": "https://wiki.keyestudio.com/Ks0032_keyestudio_RGB_LED_Module",
             "image": "https://wiki.keyestudio.com/images/2/2c/Ks0032-3.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou_mul.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -840,7 +850,7 @@
             "sensor": "led",
             "url": "https://wiki.keyestudio.com/KS0016_Keyestudio_White_LED_Module",
             "image": "https://wiki.keyestudio.com/images/3/38/Ks0016-1.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -857,7 +867,7 @@
             "sensor": "led",
             "url": "https://wiki.keyestudio.com/Ks0232_keyestudio_Red_LED_Module",
             "image": "https://wiki.keyestudio.com/images/4/4d/Ks0232-1.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -874,7 +884,7 @@
             "sensor": "led",
             "url": "https://wiki.keyestudio.com/Ks0233_keyestudio_Green_LED_Module",
             "image": "https://wiki.keyestudio.com/images/d/da/Ks0233-1.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -891,7 +901,7 @@
             "sensor": "led",
             "url": "https://wiki.keyestudio.com/Ks0234_keyestudio_Yellow_LED_Module",
             "image": "https://wiki.keyestudio.com/images/b/b2/Ks0234-1.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -908,7 +918,7 @@
             "sensor": "led",
             "url": "https://wiki.keyestudio.com/Ks0235_keyestudio_Blue_LED_Module",
             "image": "https://wiki.keyestudio.com/images/f/ff/Ks0235-1.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -925,7 +935,7 @@
             "sensor": "led3",
             "url": "https://wiki.keyestudio.com/KS0310_Keyestudio_Traffic_Light_Module_(Black_and_Eco-friendly)",
             "image": "https://wiki.keyestudio.com/images/6/6b/Ks0310_traffic_light_module.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou_mul.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -937,29 +947,12 @@
             ]
         },
         {
-            "name": "RC522 RFID",
-            "categorie": "badge",
-            "sensor": "RC522_RFID",
-            "url": "https://wiki.keyestudio.com/Ks0067_keyestudio_RC522_RFID_Module_for_Arduino",
-            "image": "https://wiki.keyestudio.com/images/5/51/Ks0067-4.png",
-            "url_code": "https://raw.githubusercontent.com/wendlers/micropython-mfrc522/master/mfrc522.py",
-            "url_code_example": "https://github.com/wendlers/micropython-mfrc522",
-            "liaison": "and",
-            "info": [
-                {
-                    "typePort": "Digital",
-                    "in_out": "ou",
-                    "number": "1"
-                }
-            ]
-        },
-        {
             "name": "Hall Magnetic Sensor",
             "categorie": "magnet",
             "sensor": "SFE_Reed_Switch",
             "url": "https://wiki.keyestudio.com/Ks0020_keyestudio_Hall_Magnetic_Sensor",
             "image": "https://wiki.keyestudio.com/images/d/db/KS0020_%282%29.jpg",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1492,7 +1485,7 @@
             "info": [
                 {
                     "typePort": "Analog",
-                    "in_out": "ou",
+                    "in_out": "in",
                     "number": "1"
                 }
             ]
@@ -1509,7 +1502,7 @@
             "info": [
                 {
                     "typePort": "Analog",
-                    "in_out": "ou",
+                    "in_out": "in",
                     "number": "1"
                 }
             ]
@@ -1521,7 +1514,7 @@
             "url": "https://wiki.keyestudio.com/KS0450_Keyestudio_Vibration_Motor_Module_(Black_and_Eco-friendly)",
             "image": "https://wiki.keyestudio.com/images/6/61/Ks0450-1.png",
             "url_code": "",
-            "url_code_example": "",
+            "url_code_example": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/PWM.py",
             "liaison": "and",
             "info": [
                 {
@@ -1537,7 +1530,7 @@
             "sensor": "",
             "url": "https://wiki.keyestudio.com/KS0459_Keyestudio_10mm_Highlight_Full-color_LED_RGB_Module",
             "image": "https://wiki.keyestudio.com/images/4/4b/Ks0459%E5%9B%BE%E7%89%871.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/PWM_mul.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1554,7 +1547,7 @@
             "sensor": "L9110",
             "url": "https://wiki.keyestudio.com/Ks0168_keyestudio_L9110_fan_control_module",
             "image": "https://wiki.keyestudio.com/images/0/03/Ks0168.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/PWM.py",
             "url_code_example": "",
             "liaison": "",
             "info": [
@@ -1571,7 +1564,7 @@
             "sensor": "SG90S",
             "url": "https://wiki.keyestudio.com/Ks0194_keyestudio_Micro_Servo",
             "image": "https://wiki.keyestudio.com/images/b/be/Ks0194-_servo.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/PWM.py",
             "url_code_example": "",
             "liaison": "",
             "info": [
