@@ -1241,7 +1241,7 @@
             "sensor": "",
             "url": "https://wiki.keyestudio.com/Ks0279_keyestudio_Slide_Potentiometer_Module_for_Arduino",
             "image": "https://wiki.keyestudio.com/images/a/a2/Ks0279_%E6%BB%91%E8%B0%83%E7%94%B5%E4%BD%8D%E5%99%A8.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/PWM_mul.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1272,10 +1272,10 @@
         {
             "name": "Pulse Rate Monitor",
             "categorie": "Heart",
-            "sensor": "",
+            "sensor": "Ks0015",
             "url": "https://wiki.keyestudio.com/Ks0015_keyestudio_Pulse_Rate_Monitor",
             "image": "https://wiki.keyestudio.com/images/0/09/Ks0015-2.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/Ks0015.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1292,7 +1292,7 @@
             "sensor": "LM35",
             "url": "https://wiki.keyestudio.com/Ks0022_keyestudio_LM35_Linear_Temperature_Sensor",
             "image": "https://wiki.keyestudio.com/images/4/47/Ks0022-2.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/LM35.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1309,7 +1309,7 @@
             "sensor": "",
             "url": "https://wiki.keyestudio.com/Ks0028_keyestudio_Photocell_Sensor",
             "image": "https://wiki.keyestudio.com/images/0/0b/KS0028_%284%29.jpg",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/analog_in_base.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1326,7 +1326,7 @@
             "sensor": "",
             "url": "https://wiki.keyestudio.com/Ks0033_keyestudio_Analog_Temperature_Sensor",
             "image": "https://wiki.keyestudio.com/images/2/22/Ks0033.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/Ks0033.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1343,7 +1343,7 @@
             "sensor": "",
             "url": "https://wiki.keyestudio.com/KS0035_Microphone_Sound_Sensor_with_Potentiometer",
             "image": "https://wiki.keyestudio.com/images/3/36/Ks0035%281%29.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/analog_in_base.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1360,7 +1360,7 @@
             "sensor": "",
             "url": "https://wiki.keyestudio.com/Ks0048_keyestudio_Water_Sensor",
             "image": "https://wiki.keyestudio.com/images/c/c3/Ks0048%281%29.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/analog_in_base.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1377,7 +1377,7 @@
             "sensor": "",
             "url": "https://wiki.keyestudio.com/Ks0049_keyestudio_Soil_Humidity_Sensor",
             "image": "https://wiki.keyestudio.com/images/f/f2/KS0049.jpg",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/analog_in_base.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1394,7 +1394,7 @@
             "sensor": "TEMT6000",
             "url": "https://wiki.keyestudio.com/Ks0098_keyestudio_TEMT6000_Ambient_Light_Sensor",
             "image": "https://wiki.keyestudio.com/images/6/60/KS0098.jpg",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/analog_in_base.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1411,7 +1411,7 @@
             "sensor": "",
             "url": "https://wiki.keyestudio.com/Ks0203_keyestudio_Steam_Sensor",
             "image": "https://wiki.keyestudio.com/images/c/c4/2031.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/analog_in_base.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1428,7 +1428,7 @@
             "sensor": "GUVA-S12SD 3528",
             "url": "https://wiki.keyestudio.com/Ks0204_keyestudio_GUVA-S12SD_3528_Ultraviolet_Sensor",
             "image": "https://wiki.keyestudio.com/images/9/9c/2041.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/analog_in_base.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1445,7 +1445,7 @@
             "sensor": "",
             "url": "https://wiki.keyestudio.com/Ks0272_keyestudio_Analog_Piezoelectric_Ceramic_Vibration_Sensor",
             "image": "https://wiki.keyestudio.com/images/6/67/Ks0272-1-1.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/analog_in_base.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1462,7 +1462,7 @@
             "sensor": "",
             "url": "https://wiki.keyestudio.com/Ks0309_Keyestudio_Thin-film_Pressure_Sensor_(Black_and_Eco-friendly)",
             "image": "https://wiki.keyestudio.com/images/f/f0/KS0309.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/analog_in_base.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1496,7 +1496,7 @@
             "sensor": "GY-ML8511",
             "url": "https://wiki.keyestudio.com/Ks0273_keyestudio_GY-ML8511_Ultraviolet_Sensor_Module",
             "image": "https://wiki.keyestudio.com/images/e/ed/KS0273-.png",
-            "url_code": "",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/analog_in_base.py",
             "url_code_example": "",
             "liaison": "and",
             "info": [
@@ -1513,8 +1513,8 @@
             "sensor": "",
             "url": "https://wiki.keyestudio.com/KS0450_Keyestudio_Vibration_Motor_Module_(Black_and_Eco-friendly)",
             "image": "https://wiki.keyestudio.com/images/6/61/Ks0450-1.png",
-            "url_code": "",
-            "url_code_example": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/PWM.py",
+            "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/PWM.py",
+            "url_code_example": "",
             "liaison": "and",
             "info": [
                 {
