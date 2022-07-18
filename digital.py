@@ -9,7 +9,7 @@ def immediate(i2c, info):
     return ';'.join(result)
 
 info = {
-    'name' : ['led', 'buzzer_digi', 'buzzer_passive', 'relay_5v', '3w_led', 'white_led', 'red_led', 'green_led', 'yellow_led', 'blue_led'],
+    'name' : ['led', 'buzzer_digi', 'buzzer_passive', 'relay_5v', '3w_led', 'white_led', 'red_led', 'green_led', 'yellow_led', 'blue_led', 'SFE_Reed_Switch', 'Reed_Switch'],
     'info' : {
         #'freq' : '', # analog
         #'addr' : '', # I2C
