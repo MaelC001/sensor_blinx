@@ -365,7 +365,7 @@
             "sensor": "MQ-7",
             "url": "",
             "image": "",
-            "url_code": "https://raw.githubusercontent.com/kartun83/micropython-MQ/master/MQ/BaseMQ.py, https://raw.githubusercontent.com/kartun83/micropython-MQ/master/MQ/MQ7.py",
+            "url_code": "https://raw.githubpca9685usercontent.com/kartun83/micropython-MQ/master/MQ/BaseMQ.py, https://raw.githubusercontent.com/kartun83/micropython-MQ/master/MQ/MQ7.py",
             "url_code_example": "https://github.com/kartun83/micropython-MQ",
             "liaison": "and",
             "info": [
