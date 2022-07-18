@@ -23,10 +23,10 @@ info = {
                 #'byte' : '', # analog + I2C : lambda x,y,z : x
                 #'data' : '', # analog + I2C : lambda x:x
             },
-            'functions' : {
-                'immediate' : immediate,
-                #'create' : '', # display
-            },
         },
+    },
+    'functions' : {
+        'immediate' : immediate,
+        #'create' : '', # display
     },
 }
