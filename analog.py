@@ -1,32 +1,29 @@
-from machine import Pin
+from machine import Pin, ADC
 
 def immediate(i2c, info):
     result = []
     for pin_info in info:
-        pin = pin_info['pin']
-        t = Pin(pin, Pin.OUT)
-        result.append(b'\x01' if t() else b'\x00')
+        Pin(0, mode=Pin.OUT).value(pin_info['p1'])
+        Pin(2, mode=Pin.OUT).value(pin_info['p2'])
+        Pin(15, mode=Pin.OUT).value(pin_info['p3'])
+        result.append(ADC(0).read())
     return ';'.join(result)
 
 info = {
-    'name' : ['ad_key_button', 'knock_sensor', 'slide_potentiometre', 'pulse_rate', 'lm35', 'photocell', 'analog_temperature', 'microphone', 'water_sensor', 'soil_humidity', 'temt6000', 'steam_sensor', 'guva_s12sd_3528', 'piezoelectric', 'thin_film_pressure', 'xd_58c', 'gy_ml8511'], 
+    'name' : ['ad_key_button', 'knock_sensor', 'slide_potentiometre', 'pulse_rate', 'lm35', 'photocell', 'analog_temperature', 'microphone', 'water_sensor', 'soil_humidity', 'temt6000', 'steam_sensor', 'guva_s12sd_3528', 'piezoelectric', 'thin_film_pressure', 'xd_58c', 'gy_ml8511'] + ['servo_9g', 'vibration_motor', 'l9110', 'sg90s'], 
     'info' : {
-        #'freq' : '', # analog
-        #'addr' : '', # I2C
-        #'byteReceive' : '', # I2C
-        #'codeSend' : '', # I2C
+        'freq' : 1000,
     }, 
     'channels' : {
         '0' : {
             'waiting' : 0, 
             'functionsId' : {
-                #'byte' : '', # analog + I2C : lambda x, y, z : x
-                #'data' : '', # analog + I2C : lambda x:x
+                'byte' : lambda x, y, z : x,
+                'data' : lambda x:x,
             }, 
         }, 
     }, 
     'functions' : {
-        'immediate' : immediate, 
-        #'create' : '', # display
+        'immediate' : immediate,
     }, 
 }
