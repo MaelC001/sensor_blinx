@@ -1297,7 +1297,7 @@
             "liaison": "and",
             "info": [
                 {
-                    "typePort": "anlog",
+                    "typePort": "Analog",
                     "in_out": "in",
                     "number": "1"
                 }
