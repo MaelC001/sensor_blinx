@@ -10,7 +10,7 @@ def immediate(i2c, info):
     return ';'.join(result)
 
 info = {
-    'name' : ['mq_2', 'mq_3', 'mq_4', 'mq_5', 'mq_6', 'mq_7', 'mq_8', 'mq_9', 'mq_135', 'ad_key_button', 'knock_sensor', 'slide_potentiometre', 'pulse_rate', 'lm35', 'photocell', 'analog_temperature', 'microphone', 'water_sensor', 'soil_humidity', 'temt6000', 'steam_sensor', 'guva_s12sd_3528', 'piezoelectric', 'thin_film_pressure', 'xd_58c', 'gy_ml8511'] + ['servo_9g', 'vibration_motor', 'l9110', 'sg90s'], 
+    'name' : ['rotation_analog', 'sound_analog', 'moisture_sensor', 'ceramic_vibration', 'LM358', 'rotation_analog', 'mq_2', 'mq_3', 'mq_4', 'mq_5', 'mq_6', 'mq_7', 'mq_8', 'mq_9', 'mq_135', 'ad_key_button', 'knock_sensor', 'slide_potentiometre', 'lm35', 'photocell', 'analog_temperature', 'microphone', 'water_sensor', 'soil_humidity', 'temt6000', 'steam_sensor', 'guva_s12sd_3528', 'piezoelectric', 'thin_film_pressure', 'xd_58c', 'gy_ml8511'] + ['servo_9g', 'vibration_motor', 'l9110', 'sg90s'], 
     'info' : {
         'freq' : 1000,
     }, 
