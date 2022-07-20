@@ -1599,6 +1599,21 @@
             "type": "list"
         },
         {
+            "name": "seeed studio",
+            "url": "https://github.com/Seeed-Studio/grove.py",
+            "type": "list"
+        },
+        {
+            "name": "chinese community",
+            "url": "https://github.com/micropython-Chinese-Community/mpy-lib/tree/master/sensor",
+            "type": "list"
+        },
+        {
+            "name": "ControlEverythingCommunity",
+            "url": "https://github.com/ControlEverythingCommunity",
+            "type": "list"
+        },
+        {
             "name": "radiation Geiger counter",
             "url": "https://github.com/biemster/ESPGeiger",
             "type": "projet"

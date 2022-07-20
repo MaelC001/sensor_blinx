@@ -1,0 +1,11 @@
+line tracking : ne semble pas marcher (semble plutot être un sensor de proximité)
+LM35 : les valeurs ne semble pas correcte
+analog sound : ne marche pas toujours
+APDS-9930 : proximité ne semble pas marché, pour l'ambience oui (normalement donne aussi le rgb, pas trouver)
+HC-SR04 : ne semble pas marché
+knock sensor : toujours vrai
+TMD27713 : pas trouver de module (https://wiki.keyestudio.com/Ks0269_keyestudio_TMD27713_ALS_Infrared_LED_Optical_Proximity_Detection_Module, https://github.com/ControlEverythingCommunity/TMD2771, https://github.com/palouf34/veml7700)
+MMA8452Q : pas trouver (https://wiki.keyestudio.com/Ks0270_keyestudio_MMA8452Q_Module_Triaxial_Digital_Acceleration_Tilt_Sensor, https://github.com/ControlEverythingCommunity/MMA8452Q, https://github.com/adafruit/Adafruit_CircuitPython_MMA8451)
+BMP280 : quand on le lance on fait crasher micropython (https://wiki.seeedstudio.com/Grove-Barometer_Sensor-BMP280/, https://www.adafruit.com/product/4059, https://github.com/dafvid/micropython-bmp280)
+
+magnetic + voltage sensor : pas essayer
