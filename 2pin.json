@@ -1,0 +1,424 @@
+[
+    {
+        "name": "Joystick",
+        "categorie": "Button",
+        "sensor": "PS2_joystick",
+        "url": "https://wiki.keyestudio.com/Ks0008_keyestudio_Joystick_Module",
+        "image": "https://wiki.keyestudio.com/images/2/20/Ks0008_joystick.png",
+        "url_code": "",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Analog",
+                "in_out": "in",
+                "number": "2"
+            },
+            {
+                "typePort": "Digital",
+                "in_out": "in",
+                "number": "1"
+            }
+        ]
+    },
+    {
+        "name": "5V Stepper Motor",
+        "categorie": "Motor",
+        "sensor": "28BYJ-48, ULN2003",
+        "url": "https://wiki.keyestudio.com/Ks0140_keyestudio_5V_Stepper_Motor",
+        "image": "https://wiki.keyestudio.com/images/5/5e/KS0140-2.jpg",
+        "url_code": "",
+        "url_code_example": "https://github.com/IDWizard/uln2003",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "1"
+            },
+            {
+                "typePort": "Analog",
+                "in_out": "ou",
+                "number": "1"
+            }
+        ]
+    },
+    {
+        "name": "Stepper Motor",
+        "categorie": "Motor",
+        "sensor": "ULN2003",
+        "url": "https://wiki.keyestudio.com/Ks0208_keyestudio_ULN2003_Stepper_Motor_Driver",
+        "image": "https://wiki.keyestudio.com/images/4/46/KS0208-1.png",
+        "url_code": "",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "in",
+                "number": "1"
+            },
+            {
+                "typePort": "Analog",
+                "in_out": "in",
+                "number": "4"
+            }
+        ]
+    },
+    {
+        "name": "PM2.5 Shield",
+        "categorie": "Air",
+        "sensor": "GP2Y1014AU",
+        "url": "https://wiki.keyestudio.com/Ks0196_keyestudio_PM2.5_Shield",
+        "image": "https://wiki.keyestudio.com/images/9/93/Ks0196.png",
+        "url_code": "",
+        "url_code_example": "https://github.com/amigcamel/pyGP2Y",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Analog",
+                "in_out": "ou",
+                "number": "1"
+            },
+            {
+                "typePort": "Digital",
+                "in_out": "in",
+                "number": "1"
+            }
+        ]
+    },
+    {
+        "name": "ECG Measurement Heart Monitor",
+        "categorie": "Heart",
+        "sensor": "AD8232",
+        "url": "https://wiki.keyestudio.com/Ks0261_keyestudio_AD8232_ECG_Measurement_Heart_Monitor_Sensor_Module",
+        "image": "https://wiki.keyestudio.com/images/9/93/Ks0196.png",
+        "url_code": "",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "2"
+            },
+            {
+                "typePort": "Analog",
+                "in_out": "ou",
+                "number": "1"
+            }
+        ]
+    },
+    {
+        "name": "Ultrasonic",
+        "categorie": "Motion",
+        "sensor": "SR01",
+        "url": "https://wiki.keyestudio.com/Ks0206_Keyestudio_SR01_Ultrasonic_Sensor, https://wiki.keyestudio.com/KS0375_keyestudio_SR01_Ultrasonic_Module_V2",
+        "image": "https://wiki.keyestudio.com/images/b/be/Ks0375-1.png",
+        "url_code": "",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "in",
+                "number": "1"
+            },
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "1"
+            }
+        ]
+    },
+    {
+        "name": "Quick Connectors Ultrasonic Module",
+        "categorie": "Motion",
+        "sensor": "CS100A",
+        "url": "https://wiki.keyestudio.com/KS0511_Keyestudio_Quick_Connectors_Ultrasonic_Module(CS100A_Chip/Black/Environment-friendly)",
+        "image": "https://wiki.keyestudio.com/images/9/96/0511-1.png",
+        "url_code": "",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "in",
+                "number": "1"
+            },
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "1"
+            }
+        ]
+    },
+    {
+        "name": "Color Sensor",
+        "categorie": "Led",
+        "sensor": "TCS3200",
+        "url": "https://wiki.keyestudio.com/Ks0053_keyestudio_Color_Sensor",
+        "image": "https://wiki.keyestudio.com/images/e/ea/531.png",
+        "url_code": "",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "3"
+            },
+            {
+                "typePort": "Digital",
+                "in_out": "in",
+                "number": "1"
+            }
+        ]
+    },
+    {
+        "name": "Formaldehyde Benzene VOC Gas Sensor",
+        "categorie": "Air",
+        "sensor": "MS1100",
+        "url": "https://wiki.keyestudio.com/KS0451_Keyestudio_MS1100_Formaldehyde_Benzene_VOC_Gas_Sensor",
+        "image": "https://wiki.keyestudio.com/images/d/d9/Ks0451-1.png",
+        "url_code": "",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "digital",
+                "in_out": "in",
+                "number": "1"
+            },
+            {
+                "typePort": "analog",
+                "in_out": "in",
+                "number": "1"
+            }
+        ]
+    },
+    {
+        "name": "Electromagnet Module",
+        "categorie": "magnet",
+        "sensor": "KS0320",
+        "url": "https://wiki.keyestudio.com/KS0320_Keyestudio_Electromagnet_Module_(Black_and_Environmental-friendly)",
+        "image": "https://wiki.keyestudio.com/images/d/df/KS0320_%E5%9B%BE%E7%89%871.png",
+        "url_code": "",
+        "url_code_example": "",
+        "liaison": "or",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "1"
+            },
+            {
+                "typePort": "Analog",
+                "in_out": "ou",
+                "number": "1"
+            }
+        ]
+    },
+    {
+        "name": "Turbidity Sensor V1.0",
+        "categorie": "water",
+        "sensor": "4550NTU",
+        "url": "https://wiki.keyestudio.com/KS0414_Keyestudio_Turbidity_Sensor_V1.0",
+        "image": "https://wiki.keyestudio.com/images/1/17/0414%E5%9B%BE%E7%89%871.png",
+        "url_code": "",
+        "url_code_example": "",
+        "liaison": "or",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "1"
+            },
+            {
+                "typePort": "Analog",
+                "in_out": "ou",
+                "number": "1"
+            }
+        ]
+    },
+    {
+        "name": "Dual Relay",
+        "categorie": "Relay",
+        "sensor": "relay2",
+        "url": "https://wiki.keyestudio.com/Ks0057_keyestudio_Dual_Relay_Module",
+        "image": "https://wiki.keyestudio.com/images/f/f6/Ks0057.png",
+        "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou_mul.py",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "2"
+            }
+        ]
+    },
+    {
+        "name": "4-channel Relay",
+        "categorie": "Relay",
+        "sensor": "relay4",
+        "url": "https://wiki.keyestudio.com/Ks0058_keyestudio_4-channel_Relay_Module",
+        "image": "https://wiki.keyestudio.com/images/f/fa/Ks0058-1.png",
+        "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou_mul.py",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "4"
+            }
+        ]
+    },
+    {
+        "name": "L298N Motor Driver Board",
+        "categorie": "Motor",
+        "sensor": "L298N",
+        "url": "https://wiki.keyestudio.com/Ks0063_keyestudio_L298N_Motor_Driver_Board_Module",
+        "image": "https://wiki.keyestudio.com/images/e/e7/Ks0063-1.png",
+        "url_code": "",
+        "url_code_example": "https://github.com/GuyCarver/MicroPython/blob/master/lib/L298N.py",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "4"
+            },
+            {
+                "typePort": "Analog",
+                "in_out": "ou",
+                "number": "2"
+            }
+        ]
+    },
+    {
+        "name": "Motor",
+        "categorie": "Motor",
+        "sensor": "TB6612FNG",
+        "url": "https://wiki.keyestudio.com/Ks0066_keyestudio_TB6612FNG_Motor_Driver",
+        "image": "https://wiki.keyestudio.com/images/6/65/Ks0066-1.png",
+        "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou.py",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "5"
+            },
+            {
+                "typePort": "Analog",
+                "in_out": "ou",
+                "number": "2"
+            }
+        ]
+    },
+    {
+        "name": "Reprap Stepper Motor Driver",
+        "categorie": "Motor",
+        "sensor": "A4988",
+        "url": "https://wiki.keyestudio.com/Ks0281_Keyestudio_Reprap_Stepper_Motor_Driver",
+        "image": "https://wiki.keyestudio.com/images/1/18/Ks0281.png",
+        "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou_mul.py",
+        "url_code_example": "https://github.com/jeffmer/micropython-upybbot",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "2"
+            }
+        ]
+    },
+    {
+        "name": "RGB LED",
+        "categorie": "Led",
+        "sensor": "led3",
+        "url": "https://wiki.keyestudio.com/Ks0032_keyestudio_RGB_LED_Module",
+        "image": "https://wiki.keyestudio.com/images/2/2c/Ks0032-3.png",
+        "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou_mul.py",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "3"
+            }
+        ]
+    },
+    {
+        "name": "Traffic Light Module",
+        "categorie": "led",
+        "sensor": "led3",
+        "url": "https://wiki.keyestudio.com/KS0310_Keyestudio_Traffic_Light_Module_(Black_and_Eco-friendly)",
+        "image": "https://wiki.keyestudio.com/images/6/6b/Ks0310_traffic_light_module.png",
+        "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/digital_ou_mul.py",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "ou",
+                "number": "3"
+            }
+        ]
+    },
+    {
+        "name": "Rotary Encoder",
+        "categorie": "Button",
+        "sensor": "encoder",
+        "url": "https://wiki.keyestudio.com/Ks0013_keyestudio_Rotary_Encoder_Module",
+        "image": "https://wiki.keyestudio.com/images/6/67/KS0013_%283%29.jpg",
+        "url_code": "",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "in",
+                "number": "3"
+            }
+        ]
+    },
+    {
+        "name": "3-channel Line Tracking",
+        "categorie": "tracking",
+        "sensor": "TCRT5000",
+        "url": "https://wiki.keyestudio.com/KS0453_Keyestudio_3-channel_Line_Tracking_Module",
+        "image": "https://wiki.keyestudio.com/images/3/39/Ks0453-1.png",
+        "url_code": "",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Digital",
+                "in_out": "in",
+                "number": "3"
+            }
+        ]
+    },
+    {
+        "name": "10mm Highlight Full-color LED RGB",
+        "categorie": "Led",
+        "sensor": "",
+        "url": "https://wiki.keyestudio.com/KS0459_Keyestudio_10mm_Highlight_Full-color_LED_RGB_Module",
+        "image": "https://wiki.keyestudio.com/images/4/4b/Ks0459%E5%9B%BE%E7%89%871.png",
+        "url_code": "https://raw.githubusercontent.com/MaelC001/sensor_blinx/main/PWM_mul.py",
+        "url_code_example": "",
+        "liaison": "and",
+        "info": [
+            {
+                "typePort": "Analog",
+                "in_out": "ou",
+                "number": "3"
+            }
+        ]
+    }
+]
