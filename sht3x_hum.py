@@ -34,7 +34,7 @@ def crc8_sht3(buffer):
 	return crc & 0xFF
 
 info = {
-    'name' : ['sth3xHumi', 'humidity'],
+    'name' : ['sth3x_hum'],
     'channels' : {
         '0' : {
             'waiting' : 15, 
