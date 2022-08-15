@@ -47,4 +47,9 @@ info = {
     'functions' : {
         'immediate' : immediate,
     }, 
+    'info' : {
+    	'addr': 0x70,
+    	'byteReceive': 6,
+    	'codeSend': 0x70,
+    },
 }
