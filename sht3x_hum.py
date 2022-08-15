@@ -50,6 +50,6 @@ info = {
     'info' : {
     	'addr': 0x70,
     	'byteReceive': 6,
-    	'codeSend': 0x7CA2,
+    	'codeSend':  b'\x24\x00',#0x7CA2,
     },
 }
