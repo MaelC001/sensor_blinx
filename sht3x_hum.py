@@ -1,9 +1,9 @@
 import time
 
 def immediate(i2c, info, addr = 0x70):
-    i2c.writeto(addr,b'\x24\x00')
-    bytes = i2c.readfrom(addr, 6)
+    i2c.writeto(addr, b'\x7C\xA2')
     time.sleep_ms(15)
+    bytes = i2c.readfrom(addr, 6)
     data = test_byte(bytes, False, False)
     if data:
         return test_data(data)
@@ -50,6 +50,6 @@ info = {
     'info' : {
     	'addr': 0x70,
     	'byteReceive': 6,
-    	'codeSend':  b'\x24\x00',#0x7CA2,
+    	'codeSend':  b'\x7C\xA2'
     },
 }
