@@ -19,6 +19,7 @@ def test_byte(data, error, old_data):
 def test_data(bytes):
     return (175.0 * float(bytes[0] << 8 | bytes[1]) / 65535.0) - 45
 
+# https://github.com/ralf1070/Adafruit_Python_SHT31/
 def crc8_sht3(buffer):
 	""" Polynomial 0x31 (x8 + x5 +x4 +1) """
 	polynomial = 0x31
