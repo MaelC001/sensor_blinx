@@ -3,7 +3,12 @@ import ssd1306
 class create_display():
     def __init__(self, i2c, *value):
         self.i2c = i2c
-        self.display = ssd1306.SSD1306_I2C(128, 64, i2c)
+        x = 128
+        y = 64
+        if len(value) == 2:
+            x = value[0]
+            y = value[1]
+        self.display = ssd1306.SSD1306_I2C(x, y, i2c)
         self.__register = {
             'power_off': self.display.poweroff,
             'power_on': self.display.poweron,
