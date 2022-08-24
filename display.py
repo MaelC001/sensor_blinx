@@ -1,8 +1,16 @@
 class create_display():
-    pass
+    def __init__(self, i2c, *value):
+        self.i2c = i2c
+        self.display = None
+        self.__register = {}
+    def function(self, func_name, *array_value):
+        if func_name in self.__register:
+            return self.__register[func_name](*array_value)
+        else:
+            raise KeyError('Function name for the display don\'t exist.')
 
 info = {
-    'name' : ['led', 'buzzer_digi', 'buzzer_passive', 'relay_5v', '3w_led', 'white_led', 'red_led', 'green_led', 'yellow_led', 'blue_led', 'sfe_reed_switch', 'reed_switch', 'tilt', 'capacitive_touch', 'flame_sensor', '801s', 'infrared_obstacle', 'line_tracking', 'pir', 'xkc_y25_t12v', 'dht11', 'push_button', 'collision_sensor'], 
+    'name' : ['ht16k33', 'diymall_96'], 
     'info' : {}, 
     'channels' : {}, 
     'functions' : {
