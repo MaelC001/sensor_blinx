@@ -14,6 +14,7 @@ def make_data_translate():
     last_value = 0
     def data_translate(value):
         nonlocal last_value
+        value = int.from_bytes(value, 'big')
         alpha = 0.75
         new_value = alpha * last_value + (1 - alpha) * value;
         last_value = new_value

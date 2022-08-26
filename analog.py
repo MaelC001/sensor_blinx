@@ -19,7 +19,7 @@ info = {
             'waiting' : 0, 
             'functionsId' : {
                 'byte' : lambda x, y, z : x,
-                'data' : lambda x:x,
+                'data' : lambda x:int.from_bytes(x, 'big'),
             }, 
         }, 
     }, 
