@@ -43,7 +43,7 @@ class create_display():
 
 
 info = {
-    'name' : ['ssd1306_oled', 'ssd13006'], 
+    'name' : ['ssd1306_oled', 'ssd13006', 'screen'], 
     'info' : {}, 
     'channels' : {}, 
     'functions' : {
